@@ -6,7 +6,6 @@ This is a learning project using Selenium WebDriver with JAVA programming langua
 ## Technology used
 - Test tool:  Selenium  
 - Language: Java  
-- Architecture: POM
 - Framework: TestNG
 - IDE: Eclipse  
 ## Pre Requisites:
