@@ -12,7 +12,6 @@ public class TC_01_JSExecTest extends DriverSetup {
 
 	@Test
 	public void jsExecTest() throws InterruptedException {
-		
 		driver.get(baseurl);
 		driver.manage().window();
 		Thread.sleep(2000);
@@ -36,6 +35,7 @@ public class TC_01_JSExecTest extends DriverSetup {
 		Thread.sleep(2000);
 
 		driver.quit();
+	
 
 	}
 	public void highlighter(String path) {
