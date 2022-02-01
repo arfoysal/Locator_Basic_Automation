@@ -22,6 +22,9 @@ public class TC_01_JSExecTest extends DriverSetup {
 		System.out.println(js.executeScript("return document.title;"));
 		System.out.println(js.executeScript("return document.getElementsByName('home')[0].value;"));
 		js.executeScript("return document.getElementById('username').value = 'huhi';");
+		Thread.sleep(5000);
+		js.executeScript("document.getElementById('username').value = 'huhiaaaaaaaa';");
+		Thread.sleep(5000);
 		WebElement el = (WebElement)(js.executeScript("return document.getElementById('email');"));
 		el.sendKeys("asddsf@gggs.com");
 		Thread.sleep(2000);

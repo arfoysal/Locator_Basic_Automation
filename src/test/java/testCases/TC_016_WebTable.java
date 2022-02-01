@@ -1,11 +1,9 @@
 package testCases;
 
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import basePackage.DriverSetup;
@@ -15,7 +13,7 @@ public class TC_016_WebTable extends DriverSetup {
 
 	@Test
 	public static void handleWebTable() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.get(baseurl);
 		driver.manage().window().maximize();
 		Thread.sleep(2000);

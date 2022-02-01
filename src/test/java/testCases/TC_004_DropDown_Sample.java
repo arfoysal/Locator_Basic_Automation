@@ -1,6 +1,5 @@
 package testCases;
 
-import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -17,7 +16,7 @@ public class TC_004_DropDown_Sample extends DriverSetup {
 	public static void dropDown() throws InterruptedException {
 
 		driver.get(baseurl);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		Thread.sleep(2000);
 
 		WebElement el = driver.findElement(By.xpath("//select[@name='sgender']"));

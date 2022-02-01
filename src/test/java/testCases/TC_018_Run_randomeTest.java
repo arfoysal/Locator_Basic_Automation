@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.Test;
 
-import com.gargoylesoftware.htmlunit.javascript.host.dom.Text;
-
 public class TC_018_Run_randomeTest {
 	
 	@Test

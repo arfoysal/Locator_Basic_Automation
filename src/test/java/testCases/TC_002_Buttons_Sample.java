@@ -1,7 +1,5 @@
 package testCases;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -25,6 +23,7 @@ public class TC_002_Buttons_Sample extends DriverSetup {
 			System.out.println("test case passed");
 			
 		}
+		
 		elButtens.click();
 		System.out.println(driver.getCurrentUrl());
 		
